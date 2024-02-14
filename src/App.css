@@ -1,0 +1,43 @@
+:root {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #222222;
+  color: #fff;
+}
+
+h1 {
+  outline: pink 2px solid;
+  outline-width: auto;
+  font-size: 7em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+span {
+  display: block;
+  margin-top: 10%;
+  font-size: 5em;
+}
+
+button {
+  outline: 2px solid pink;
+  padding: 70px;
+  display: inline-flex;
+  background-color: rgb(252, 163, 178);
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgb(255, 200, 200) 0 0 15px;
+  color: #141414;
+  font-size: 3rem;
+}
+
+button:hover{
+  opacity: 0.5;
+  background-color: rgb(252, 164, 179);
+  transition: all .3s ease;
+}
+button:active{
+  opacity: 0.8;
+  background-color: rgb(255, 122, 144);
+  transition: all .5s ease;
+}
